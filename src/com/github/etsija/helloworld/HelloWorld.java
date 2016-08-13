@@ -44,7 +44,7 @@ public class HelloWorld extends JavaPlugin {
 		
 		// Import configurations from the (physical) files
 		config = new YamlConfiguration();
-        messages = new YamlConfiguration();
+        	messages = new YamlConfiguration();
 		loadYaml(configFile, config);
 		loadYaml(messagesFile, messages);
         
